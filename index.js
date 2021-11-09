@@ -10,6 +10,11 @@ app.get('/api/hello', (req, res) => {
     res.send('Hello World')
 })
 
+app.get('/api/deploy', (req, res) => {
+
+    res.send('Hello Deploy')
+})
+
 app.get('/api/merhaba', (req, res) => {
 
     res.send('Merhaba Dünyalı')
